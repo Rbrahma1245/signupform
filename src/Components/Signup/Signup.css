@@ -1,0 +1,31 @@
+.container {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+  padding: 1rem 2rem;
+  background-color: #2d3250;
+  color: white;
+  font-family: "Oswald";
+  width: 100%;
+}
+.container div {
+  margin-bottom: 0.8rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"] {
+  width: 95%;
+  height: 30px;
+  border-radius: 5px;
+  padding: 4px ;
+  outline: none;
+}
+
+input[type="radio"]{
+    padding: 4px;
+    margin-left: 1rem;
+
+}
